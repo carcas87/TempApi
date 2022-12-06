@@ -1,0 +1,30 @@
+body{
+    background-image: url(/playa1.jpg) ;
+    background-size: cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(65, 49,248,.7);
+width: 400px;
+color: rgba(255, 255, 255, 0.747);
+padding: 30px;
+text-align: center;
+border: 3px solid #fff;
+opacity: .9;
+border-radius: 19px;
+}
+.container select{
+    width: 100%;
+    padding: 7px;
+    font-size: 1.5rem;
+border-radius: 19px;
+    text-align: center;
+}
+.container h2{
+    font-size:  4rem;
+    letter-spacing: 4px;
+}
